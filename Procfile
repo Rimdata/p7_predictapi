@@ -1,1 +1,1 @@
-web: gunicorn predictapi:app
+web: gunicorn gettingstarted.wsgi
