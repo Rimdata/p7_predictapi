@@ -10,7 +10,7 @@ app = Flask(__name__)
 classifier = pickle.load(open('lgbm_model.pkl', 'rb'))
 @app.route('/')
 def index():
-    return "Hello, world!"
+    return "Page index de test!"
 
 @app.route('/predict', methods=['GET'])
 def predict():
