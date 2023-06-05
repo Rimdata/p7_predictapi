@@ -7,7 +7,7 @@ def test_index():
 #     response = requests.get(api_url)
 #     assert response.status_code == 200
 #     assert response.text == "Hello, world!"
-    assert index() == "Hello, world!"
+    assert index() == "Page index de test!"
 
 
 # 
