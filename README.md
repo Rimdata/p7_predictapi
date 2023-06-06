@@ -2,7 +2,7 @@
 **Prêt à dépenser** est une société financière qui propose des crédits à la consommation pour des personnes ayant peu ou pas du tout d'historique de prêt.
 L’entreprise souhaite mettre en œuvre un outil de “scoring crédit” pour calculer la probabilité qu’un client rembourse son crédit, puis classifie la demande en crédit accordé ou refusé. Elle souhaite donc développer un algorithme de classification en s’appuyant sur des sources de données variées. Cet algorithme implémentera un Dashboard interactif à travers d'une API de prédiction pour expliquer de façon la plus transparente possible les décisions d’octroi de crédit.
 
-Liens vers les répertoires Github lier au projet:
+Liens vers les répertoires Github de ce projet:
 * Les notebooks du projet : https://github.com/Rimdata/Implementez_un_modele_de_scoring
 * L'API de prédiction : https://github.com/Rimdata/p7_predictapi
 * Le Dashboard : https://github.com/Rimdata/P7_creditapp
