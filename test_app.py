@@ -12,7 +12,7 @@ def test_index():
 
 # 
 # def test_predict():
-#     api_url = 'https://predictapi.herokuapp.com/'
+#     api_url = 'http://localhost:5000/'
     
 #     client = pd.read_csv("df_credit_dash_score.csv", nrows=1).iloc[:, 2:-2]
 #     data = {'client_feat': client.to_json(orient="records")}
