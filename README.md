@@ -1,5 +1,5 @@
-# Projet 7 - Openclassrooms
-# Implémentez un modèle de scoring
+# Projet 7 - Openclassrooms 
+Implémentez un modèle de scoring
 # API de prédiction de remboursement de crédit
 
 L'api est en ligne sur https://predictapi.herokuapp.com/
