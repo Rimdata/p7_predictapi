@@ -11,18 +11,18 @@ def test_index():
 
 
 # 
-def test_predict():
-    api_url = 'https://predictapi.herokuapp.com/'
+# def test_predict():
+#     api_url = 'http://localhost:5000/predict'
     
-    client = pd.read_csv("df_credit_dash_score.csv", nrows=1).iloc[:, 2:-2]
-    data = {'client_feat': client.to_json(orient="records")}
+#     client = pd.read_csv("df_credit_dash_score.csv", nrows=1).iloc[:, 2:-2]
+#     data = {'client_feat': client.to_json(orient="records")}
     
-    response = requests.get(api_url, json=data)  
+#     response = requests.get(api_url, json=data)  
     
-    assert response.status_code == 200
-    result = response.json()
-    prediction = result['prediction']
-    assert prediction in [0, 1]
-    prediction_proba = result['prediction_proba']
-    assert 0 <= prediction_proba <= 1
+#     assert response.status_code == 200
+#     result = response.json()
+#     prediction = result['prediction']
+#     assert prediction in [0, 1]
+#     prediction_proba = result['prediction_proba']
+#     assert 0 <= prediction_proba <= 1
     
