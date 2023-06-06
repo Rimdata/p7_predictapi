@@ -1,6 +1,6 @@
 from predictapi import index, predict
-# import pandas as pd
-# import requests
+import pandas as pd
+import requests
 
 def test_index():
 #     api_url = 'http://localhost:5000/'
